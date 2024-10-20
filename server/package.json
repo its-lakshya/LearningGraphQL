@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config --experimental-json-modules app.js"
+  },
+  "author": "Lakshya Kumar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.9.0",
+    "mongoose": "^8.7.2",
+    "nodemon": "^3.1.7"
+  }
+}
